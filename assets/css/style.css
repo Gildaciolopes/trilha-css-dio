@@ -9,6 +9,9 @@
 p {
   color: #fff;
 }
+main {
+  background-color: #000;
+}
 .banner {
   background: url(../images/banner.png) center/cover no-repeat,
     linear-gradient(
@@ -132,4 +135,58 @@ p {
     max-width: 250px;
     text-shadow: 3px 2px #33a8db;
   }
+}
+#professional-challenges {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  border-bottom: 1px solid #33a8db80;
+
+  & h2 {
+    font-size: 2rem;
+    color: #33a8db;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 120px auto 32px;
+  }
+
+  & img {
+    margin: 32px 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 0px 20px rgba(51, 168, 219, 0.5);
+      cursor: pointer;
+    }
+  }
+
+  & p {
+    font-size: 1rem;
+    margin: 16px 0 24px;
+    color: #fff;
+    margin-bottom: 100px;
+  }
+}
+footer {
+  padding: 60px 0;
+  text-align: center;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(50, 168, 219, 0.37));
+  border-top: 1px solid #33a8db80;
+  background-color: #000;
+
+  & a {
+    color: #33a8db;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  & a:hover {
+    color: #fff;
+  }
+}
+.dio-logo {
+  width: 300px;
 }
